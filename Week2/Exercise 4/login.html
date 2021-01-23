@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="instructor.html">Instructor</a>
+        <a href="student.html">Student</a>
+        <a href="login.html">Login</a>
+      </div>
+<body>
+<H1>Login Page</H1>
+
+<form action="">
+    <label for="username">Username</label><br>
+    <input type="text" id="username" name="username"><br>
+    
+    <label for="password">Password</label><br>
+    <input type="password" id="input" name="password"><br><br>
+    <input type="checkbox" onclick="myFunction()">Show Password<br><br>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("input");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+    </script>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

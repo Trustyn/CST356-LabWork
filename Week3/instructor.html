@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="scripts/instructors.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+    </head>
+    
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="instructor.html">Instructor</a>
+        <a href="student.html">Student</a>
+        <a href="login.html">Login</a>
+      </div>
+
+    <body>
+        <h2>Instructor Table</h2>
+        <table style="width:100%">
+            <tr align="left">
+                <th> First Name </th>
+                <th> Middle Name </th>
+                <th> Last Name </th>
+            </tr>
+            <tbody id="instructorTable">
+            </tbody>
+        </table>
+
+        <script>initializeInstructors()</script>
+
+    </body>
+</html>

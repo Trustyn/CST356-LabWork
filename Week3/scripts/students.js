@@ -1,6 +1,8 @@
-var students = '{"students": [{"StudentID": "918555555", "Email": steve.joe@oit.edu}, {"StudentID": "918666666", "Email": karen.willis@oit.edu}]}'
+var students = '{"students": [{"StudentID": "918555555", "Email": "steve.joe@oit.edu"}, {"StudentID": "918666666", "Email": "karen.willis@oit.edu"}]}'
 
-return JSON.parse(students);
+function getStudents() {
+    return JSON.parse(students);
+}
 
 function initializeStudents() {
     var data = getStudents();

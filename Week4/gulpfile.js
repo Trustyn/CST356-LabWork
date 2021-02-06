@@ -37,7 +37,7 @@ function css() {
 }
 
 function images() {
-  return src('images/*.png')
+  return src('images/*.jpg')
     .pipe(imagemin())
     .pipe(dest('build/images'));
 }

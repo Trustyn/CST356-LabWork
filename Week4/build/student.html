@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--removeIf(production)-->
+        <script src="scripts/students.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <!--removeIf(production)-->
+
+        <!-- inject:css -->
+        <link rel="stylesheet" href="styles/app.min.css">
+        <!-- endinject -->
+    </head>
+
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="instructor.html">Instructor</a>
+        <a href="student.html">Student</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <body>
+        <h2>Student Table</h2>
+        <table style="width:100%">
+            <tr align="left">
+                <th> Student ID </th>
+                <th> Email </th>
+            </tr>
+            <tbody id="studentTable">
+
+            </tbody>
+        </table>
+
+        <script>initializeStudents()</script>
+
+        <!-- inject:js -->
+        <script src="scripts/app.min.js"></script>
+        <!-- endinject -->
+    </body>
+</html>

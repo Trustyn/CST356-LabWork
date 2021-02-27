@@ -1,23 +1,58 @@
-.DS_Store
+# use glob syntax
+syntax glob
+
+wwwrootapp
+wwwrootbin
+wwwrootjs
+wwwrootscripts
+wwwrootstyles
+wwwrootdistmain-client.
+ClientAppdistmain-server.
+
 node_modules
-/dist
+[Ss]cripts[Aa]pp.js
+[Ss]cripts[Aa]pp_old.js
 
+[Mm]igrations
 
-# local env files
-.env.local
-.env.*.local
+.tscache
+.vs
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.mwb.bak	# MySQL Workbench .BAK file
+.dbmdl		# VS2010 Database Projects cache file
+.obj
+.pdb
+.user
+.aps
+.pch
+.vspscc
+.vssscc
+_i.c
+_p.c
+.ncb
+.suo
+.tlb
+.tlh
+.bak
+.[Cc]ache
+.ilk
+.log
+.lib
+.sbr
+.scc
+.DotSettings
+[Bb]in
+[Dd]ebug
+obj
+[Rr]elease
+_ReSharper
+NDependOut
+packages
+[Tt]humbs.db
+[Tt]est[Rr]esult
+[Bb]uild[Ll]og.
+.[Pp]ublish.xml
+.resharper
+.ncrunch
+.ndproj
+node_modules

@@ -4,8 +4,7 @@ public class StudentModel
     public string StudentName {get; set;}
     public string StudentEmail {get;set;}
     public long StudentOitId {get;set;}
-    //public int Count {get;set;}
     public bool EmailType {get;set;}
-    //public bool OitIdCount {get;set;}
+    public bool OitIdLength {get;set;}
 
 }

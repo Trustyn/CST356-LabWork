@@ -21,7 +21,7 @@ public class StudentService : IStudentService
                 StudentEmail = student.StudentEmail,
                 StudentOitId = student.StudentOitId,
                 EmailType = BusinessRules.SchoolEmailCheck(student),
-                //IdLength = BusinessRules.OitIdLengthCheck(student)
+                OitIdLength = BusinessRules.OitIdLengthCheck(student)
             });
         }
 
@@ -38,7 +38,7 @@ public class StudentService : IStudentService
                 StudentEmail = student.StudentEmail,
                 StudentOitId = student.StudentOitId,
                 EmailType = BusinessRules.SchoolEmailCheck(student),
-                //IdLength = BusinessRules.OitIdLengthCheck(student)
+                OitIdLength = BusinessRules.OitIdLengthCheck(student)
         };
     }
 }
